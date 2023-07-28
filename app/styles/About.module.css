@@ -1,0 +1,96 @@
+.main {
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.abb {
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 94%;
+    background-color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    background-color: white;
+    color: black;
+}
+
+.main2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    background-color: white;
+    color: black;
+}
+
+.img {
+    width: 300px;
+}
+
+.carr {
+    background: -webkit-linear-gradient(#4668ff, #f531f2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.head {
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    background: -webkit-linear-gradient(#4668ff, #f531f2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heads {
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skills {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 20px;
+}
+
+.linkdin {
+    padding: 20px;
+    width: 500px;
+}
+
+.skim {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+}

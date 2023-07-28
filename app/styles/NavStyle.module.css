@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Grape+Nuts&family=Lexend+Peta:wght@100;200;300;400;500;600;700;800;900&family=Mochiy+Pop+P+One&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,800&family=Poppins:ital,wght@0,300;1,200&family=Righteous&family=Roboto+Mono:wght@700&family=Smooch&display=swap');
+.mainnav {
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.123);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 20px;
+    width: 94%;
+    height: 60px;
+    background-color: #F4F4F4;
+    border-radius: 15px;
+}
+
+.main1 {
+    font-family: 'Lexend Peta', sans-serif;
+    padding-left: 60px;
+    background: -webkit-linear-gradient(#0666f6, #482b45);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.main2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main2list {
+    padding-right: 60px;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main2listitem {
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 17px;
+    color: black;
+    display: flex;
+    gap: 10px;
+}
+
+.main2listitem:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .mainnav {
+        z-index: 20;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 20px;
+        width: 94%;
+        height: 60px;
+        background-color: #F4F4F4;
+        border-radius: 15px;
+    }
+    .menu {
+        margin-right: 60px;
+        display: block;
+        color: black;
+    }
+    .main2 {
+        transition: 0.4s;
+        padding-left: 3%;
+        z-index: 10;
+        position: absolute;
+        left: -100%;
+        border-radius: 15px;
+        background-color: transparent;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 60%;
+        align-items: center;
+        justify-content: center;
+    }
+    .main2list {
+        border-radius: 15px;
+        background-color: #F4F4F4;
+        height: auto;
+        margin-top: 80px;
+        width: 100%;
+        padding-right: 60px;
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+    .main2list {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 60px;
+        gap: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .main2clic {
+        transition: 0.4s;
+        padding-left: 3%;
+        z-index: 10;
+        position: absolute;
+        left: 0%;
+        opacity: 1;
+        border-radius: 15px;
+        background-color: transparent;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 60%;
+        align-items: center;
+        justify-content: center;
+    }
+}
