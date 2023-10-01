@@ -12,7 +12,7 @@ export const Nav = () => {
   return (
     <div className={ss.mainnav}>
      <div className={ss.main1}>
-        <Link href="./"><h1>DevFolio</h1></Link>
+        <Link href="./"><h1>Portfolio</h1></Link>
      </div>
      <div className={ss.menu}>
         <div onClick={change}>{state?<Menu/>:<X/>}</div>
