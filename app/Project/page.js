@@ -7,6 +7,7 @@ import news from "../images/newso.jpg"
 import textu from "../images/textt.jpg"
 import port from "../images/port.png"
 import flu from "../images/download.png"
+import calcu from "../images/calc.png"
 const page = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const page = () => {
         <Card img={news} name="News Api Website using HTML Css" disc="Created a news website using api and filters " link="https://github.com/Sageyuva/news-Api" />
         <Card img={textu} name="Text Utils using react and hooks" disc="Created a text utils application to understand hooks " link="https://github.com/Sageyuva/text-utils-web-using-reactjs" />
         <Card img={flu} name="TODO list mobile application" disc="Created a to do list mobile applicatio  using flutter " link="https://github.com/Sageyuva/Todolist_Flutter" />
+        <Card img={calcu} name="Calculator website using React.Js" disc="Simple calculator web-site to understand functions in React.js " link="https://github.com/Sageyuva/react_calculator" />
         
     </div>
     </>
