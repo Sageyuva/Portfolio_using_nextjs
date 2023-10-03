@@ -1,15 +1,15 @@
 import d from "../styles/About.module.css"
 import React from 'react'
 import Image from "next/image"
-import java from "../images/java.png"
-import css from "../images/css.png"
-import html from "../images/html.png"
-import js from "../images/js.png"
-import flu from "../images/download.png"
-import c from "../images/c.png"
-import mongo from "../images/mongo.png"
-import express from "../images/express.png"
-import next from "../images/nextjs.png"
+// import java from "../images/java.png"
+// import css from "../images/css.png"
+// import html from "../images/html.png"
+// import js from "../images/js.png"
+// import flu from "../images/download.png"
+// import c from "../images/c.png"
+// import mongo from "../images/mongo.png"
+// import express from "../images/express.png"
+// import next from "../images/nextjs.png"
 import one from "../images/1st.jpeg"
 import two from "../images/2nd.jpeg"
 import three from "../images/3rd.jpeg"
@@ -51,7 +51,7 @@ const AboutP = () => {
     <div className={d.abb}>
     <h2 className={d.head}>Skills</h2>
     </div>
-    <div
+    {/* <div
     className={d.skills}>
         <Image  className={d.skim} src={c} alt=" " height="90" width="200"/>
         <Image  className={d.skim} src={java} alt=" " height="90" width="200"/>
@@ -63,7 +63,7 @@ const AboutP = () => {
         <Image  className={d.skim} src={express} alt=" " height="90" width="200"/>
         <Image  className={d.skim} src={next} alt=" " height="90" width="200"/>
         
-    </div>
+    </div> */}
    
     </>
   )

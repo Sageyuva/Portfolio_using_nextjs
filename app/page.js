@@ -3,6 +3,7 @@ import { Linkedin , Github ,Code2 ,Instagram } from 'lucide-react';
 import Link from "next/link"
 import hs from "./styles/HomeS.module.css"
 import AboutP from './components/AboutP';
+import Skills from './components/Skills';
 
 
 
@@ -29,7 +30,7 @@ export default function Home() {
   </div>
 </div>
 <AboutP/>
- 
+ <Skills/>
 
 
   </> 
